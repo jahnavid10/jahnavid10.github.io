@@ -32,13 +32,22 @@ navLinks.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => navLinks.classList.remove('open'));
 });
 
-// Scroll progress bar
+// Scroll progress bar + nav background state
 const progressBar = document.getElementById('progressBar');
-window.addEventListener('scroll', () => {
+const nav = document.getElementById('header');
+const intro = document.getElementById('intro');
+
+function updateOnScroll() {
   const scrollTop = window.scrollY;
   const docHeight = document.documentElement.scrollHeight - window.innerHeight;
   progressBar.style.width = (docHeight > 0 ? (scrollTop / docHeight) * 100 : 0) + '%';
-});
+
+  const introHeight = intro ? intro.offsetHeight : 0;
+  nav.classList.toggle('scrolled', scrollTop > introHeight - 80);
+}
+
+window.addEventListener('scroll', updateOnScroll);
+updateOnScroll();
 
 // Reveal on scroll
 const revealEls = document.querySelectorAll('.reveal');
