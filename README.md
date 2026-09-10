@@ -16,7 +16,7 @@ https://jahnavid10.github.io
 | File | Used by | Status |
 |---|---|---|
 | `assets/CV_Jahnavi_Dulala_EN.pdf` | "Download CV (English)" button in the About section | ✅ present |
-| `assets/CV_Jahnavi_Dulala_DE.pdf` | "Lebenslauf (Deutsch)" button in the About section | ⬜ still needed |
+| `assets/CV_Jahnavi_Dulala_DE.pdf` | "Lebenslauf (Deutsch)" button in the About section | ✅ present |
 | `assets/Thesis_Report_Jahnavi_Dulala.pdf` | "Thesis Report (PDF)" link in the Master Thesis Researcher timeline entry | ⬜ still needed |
 
 ## Known placeholders to fill in
