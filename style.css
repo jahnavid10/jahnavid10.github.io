@@ -339,11 +339,11 @@ ul { list-style: none; margin: 0; padding: 0; }
 }
 
 .profile-photo {
-  width: 88px;
-  height: 88px;
+  width: 140px;
+  height: 140px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid var(--surface);
+  border: 4px solid var(--surface);
   outline: 2px solid var(--accent);
   outline-offset: 2px;
   margin-bottom: 6px;
