@@ -2,7 +2,6 @@ const translations = {
   en: {
     "nav.about": "About",
     "nav.experience": "Experience",
-    "nav.thesis": "Thesis",
     "nav.projects": "Projects",
     "nav.skills": "Skills",
     "nav.education": "Education",
@@ -50,21 +49,16 @@ const translations = {
     "exp.r4.li3": "Architected automated Power BI KPI dashboards used as the cross-functional reference for weekly quality reporting.",
     "exp.r4.li4": "Led SQL tuning and data-tagging workshops for 10+ junior analysts, shortening onboarding cycles.",
 
-    "thesis.eyebrow": "03 · Master Thesis",
-    "thesis.title": "Master Thesis",
-    "thesis.name": "Compression-Aware Edge Deployment for Wearable Sensor Data",
-    "thesis.org": "Universität Siegen · Dec 2024 – Sep 2025",
-    "thesis.desc": "Benchmarked four compression methods for 12-channel wearable sensor data, cutting payload size by 97% while establishing the practical accuracy–compression boundary for on-device Human Activity Recognition and defining the usable operating range for lossy sensor encoding. Delivered a browser-based visualisation tool rendering at 100 FPS with sub-50 ms decode latency for interactive time-series exploration.",
     "thesis.report": "Thesis Report (PDF)",
     "thesis.repo": "GitHub Repository",
 
-    "proj.eyebrow": "04 · Projects",
+    "proj.eyebrow": "03 · Projects",
     "proj.title": "Selected Work",
     "proj.p1.desc": "A retrieval-augmented generation pipeline over a 15K-article BBC News corpus. FAISS vector indexing and Sentence Transformer embeddings ground every answer in retrieved sources to eliminate hallucinated responses, served through interactive Gradio and Streamlit interfaces.",
     "proj.p2.desc": "A Hugging Face Spaces application comparing five deep learning restoration models - CBDNet, IRCNN, U-Net, RCAN, and Autoencoders - across six no-reference perceptual quality benchmarks.",
     "proj.cta": "View live demo",
 
-    "skills.eyebrow": "05 · Skills",
+    "skills.eyebrow": "04 · Skills",
     "skills.title": "Technical Skills",
     "skills.g1": "Programming &amp; Core",
     "skills.g2": "Machine Learning",
@@ -75,7 +69,7 @@ const translations = {
     "skills.langEn": "English - C2 (fluent)",
     "skills.langDe": "German - A2/B1 (intermediate, actively improving)",
 
-    "edu.eyebrow": "06 · Education",
+    "edu.eyebrow": "05 · Education",
     "edu.title": "Academic Background",
     "edu.d1.title": "M.Sc. Mechatronics",
     "edu.d1.org": "Universität Siegen · Siegen, Germany",
@@ -84,11 +78,11 @@ const translations = {
     "edu.d2.org": "Vardhaman College of Engineering · Hyderabad, India",
     "edu.d2.note": "Focus: Auto CAD, Material Science, Engineering Electronics, Entrepreneurship, Hydraulics.",
 
-    "cert.eyebrow": "07 · Certifications",
+    "cert.eyebrow": "06 · Certifications",
     "cert.title": "Certifications",
     "cert.note": "Credential links coming soon.",
 
-    "contact.eyebrow": "08 · Contact",
+    "contact.eyebrow": "07 · Contact",
     "contact.title": "Let's build<br>something great.",
     "contact.sub": "Open to Machine Learning Engineer, Data Scientist, AI Engineer, and Research/PhD roles.",
 
@@ -98,7 +92,6 @@ const translations = {
   de: {
     "nav.about": "Über mich",
     "nav.experience": "Werdegang",
-    "nav.thesis": "Masterarbeit",
     "nav.projects": "Projekte",
     "nav.skills": "Kenntnisse",
     "nav.education": "Ausbildung",
@@ -146,21 +139,16 @@ const translations = {
     "exp.r4.li3": "Automatisierte Power-BI-KPI-Dashboards konzipiert, die als bereichsübergreifende Referenz für das wöchentliche Qualitätsreporting dienten.",
     "exp.r4.li4": "SQL-Tuning- und Data-Tagging-Workshops für 10+ Junior-Analysten geleitet und dadurch die Einarbeitungszeit verkürzt.",
 
-    "thesis.eyebrow": "03 · Masterarbeit",
-    "thesis.title": "Masterarbeit",
-    "thesis.name": "Kompressionsbewusstes Edge-Deployment für Wearable-Sensordaten",
-    "thesis.org": "Universität Siegen · Dez 2024 – Sep 2025",
-    "thesis.desc": "Vier Kompressionsverfahren für 12-Kanal-Wearable-Sensordaten verglichen und die Datenmenge um 97 % reduziert, während die praktische Grenze zwischen Genauigkeit und Kompression für On-Device Human Activity Recognition ermittelt und der nutzbare Betriebsbereich für verlustbehaftete Sensorkodierung definiert wurde. Ein browserbasiertes Visualisierungstool mit 100 FPS und einer Decodier-Latenz unter 50 ms für die interaktive Zeitreihen-Exploration entwickelt.",
     "thesis.report": "Abschlussarbeit (PDF)",
     "thesis.repo": "GitHub-Repository",
 
-    "proj.eyebrow": "04 · Projekte",
+    "proj.eyebrow": "03 · Projekte",
     "proj.title": "Ausgewählte Projekte",
     "proj.p1.desc": "Eine Retrieval-Augmented-Generation-Pipeline über einen BBC-News-Korpus mit 15.000 Artikeln. FAISS-Vektorindexierung und Sentence-Transformer-Embeddings verankern jede Antwort in den abgerufenen Quellen und eliminieren so Halluzinationen — bereitgestellt über interaktive Gradio- und Streamlit-Oberflächen.",
     "proj.p2.desc": "Eine Hugging-Face-Spaces-Anwendung, die fünf Deep-Learning-Restaurierungsmodelle - CBDNet, IRCNN, U-Net, RCAN und Autoencoder - anhand von sechs No-Reference-Bildqualitätsmetriken vergleicht.",
     "proj.cta": "Live-Demo ansehen",
 
-    "skills.eyebrow": "05 · Kenntnisse",
+    "skills.eyebrow": "04 · Kenntnisse",
     "skills.title": "Technische Kenntnisse",
     "skills.g1": "Programmierung &amp; Grundlagen",
     "skills.g2": "Machine Learning",
@@ -171,7 +159,7 @@ const translations = {
     "skills.langEn": "Englisch - C2 (fließend)",
     "skills.langDe": "Deutsch - A2/B1 (Mittelstufe, wird aktiv verbessert)",
 
-    "edu.eyebrow": "06 · Ausbildung",
+    "edu.eyebrow": "05 · Ausbildung",
     "edu.title": "Akademischer Werdegang",
     "edu.d1.title": "M.Sc. Mechatronik",
     "edu.d1.org": "Universität Siegen · Siegen, Deutschland",
@@ -180,11 +168,11 @@ const translations = {
     "edu.d2.org": "Vardhaman College of Engineering · Hyderabad, Indien",
     "edu.d2.note": "Schwerpunkte: AutoCAD, Werkstoffkunde, Elektrotechnik, Unternehmertum, Hydraulik.",
 
-    "cert.eyebrow": "07 · Zertifikate",
+    "cert.eyebrow": "06 · Zertifikate",
     "cert.title": "Zertifikate",
     "cert.note": "Nachweislinks folgen in Kürze.",
 
-    "contact.eyebrow": "08 · Kontakt",
+    "contact.eyebrow": "07 · Kontakt",
     "contact.title": "Lass uns etwas<br>Großartiges bauen.",
     "contact.sub": "Offen für Positionen als Machine Learning Engineer, Data Scientist, AI Engineer sowie im Bereich Forschung/Promotion.",
 

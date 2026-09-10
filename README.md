@@ -13,14 +13,11 @@ https://jahnavid10.github.io
 
 ## Required files in `assets/`
 
-The site links to these files but they are **not included in the repo** —
-drop them into `assets/` with these exact filenames:
-
-| File | Used by |
-|---|---|
-| `assets/CV_Jahnavi_Dulala_EN.pdf` | "Download CV (English)" button in the About section |
-| `assets/CV_Jahnavi_Dulala_DE.pdf` | "Lebenslauf (Deutsch)" button in the About section |
-| `assets/Thesis_Report_Jahnavi_Dulala.pdf` | "Thesis Report (PDF)" button in the Master Thesis section |
+| File | Used by | Status |
+|---|---|---|
+| `assets/CV_Jahnavi_Dulala_EN.pdf` | "Download CV (English)" button in the About section | ✅ present |
+| `assets/CV_Jahnavi_Dulala_DE.pdf` | "Lebenslauf (Deutsch)" button in the About section | ⬜ still needed |
+| `assets/Thesis_Report_Jahnavi_Dulala.pdf` | "Thesis Report (PDF)" link in the Master Thesis Researcher timeline entry | ⬜ still needed |
 
 ## Known placeholders to fill in
 
@@ -31,8 +28,10 @@ drop them into `assets/` with these exact filenames:
 
 ## Updating content
 
-Edit `index.html` directly — each section (About, Experience, Master Thesis,
-Projects, Skills, Education, Certifications, Contact) is clearly marked.
+Edit `index.html` directly — each section (About, Experience, Projects,
+Skills, Education, Certifications, Contact) is clearly marked. The Master
+Thesis report/repo links live inside the "Master Thesis Researcher" entry
+in the Experience timeline, not a separate section.
 Translatable text carries a `data-i18n="key"` attribute; its English and
 German strings live in `i18n.js` under that same key — update both when you
 change wording. No build step required; this is a static site.

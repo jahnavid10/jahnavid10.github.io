@@ -499,31 +499,8 @@ ul { list-style: none; margin: 0; padding: 0; }
 .project-cta i { transition: transform .15s ease; }
 .project-cta:hover i { transform: translateX(4px); }
 
-/* Thesis */
-.thesis-card {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  padding: 36px;
-  box-shadow: var(--shadow);
-}
-
-.thesis-head {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  margin-bottom: 20px;
-}
-.thesis-head h3 { font-family: var(--font-serif); font-size: 1.35rem; margin-bottom: 6px; }
-
-.thesis-card > .project-tags { margin-top: 4px; }
-.thesis-card > p:not(.project-tags):not(.timeline-org) {
-  color: var(--text-muted);
-  font-size: .97rem;
-  margin: 18px 0 26px;
-  max-width: 720px;
-}
-
+/* Thesis links (embedded in the Master Thesis Researcher timeline item) */
+.thesis-links { margin-top: 18px; }
 .thesis-links a {
   width: auto;
   padding: 0 18px;
