@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jahnavi Dulala — Machine Learning Engineer</title>
+<meta name="description" content="Jahnavi Dulala — Machine Learning Engineer / Data Scientist. RAG, MLOps, deep learning, and production ML systems." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-inner">
+    <a href="#top" class="logo">JD<span>.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button id="themeToggle" class="icon-btn" aria-label="Toggle theme"><i class="fa-solid fa-moon"></i></button>
+      <button id="navToggle" class="icon-btn hamburger" aria-label="Toggle menu"><i class="fa-solid fa-bars"></i></button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <p class="eyebrow reveal">Machine Learning Engineer / Data Scientist</p>
+      <h1 class="reveal">Hi, I'm <span class="accent">Jahnavi Dulala</span>.<br>I build ML systems that ship.</h1>
+      <p class="hero-sub reveal">
+        M.Sc. Mechatronics from Universität Siegen. I design end-to-end pipelines — ETL, distributed
+        training on AWS SageMaker, containerised deployment, and RAG systems — not just notebooks.
+        Production experience at <strong>Bosch Rexroth</strong>, prior analytics experience at <strong>Amazon</strong>.
+      </p>
+      <div class="hero-actions reveal">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-social reveal">
+        <a href="https://github.com/jahnavid10" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/dulala-j/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:dulalajahnavi2010@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <p class="section-tag reveal">01 · About</p>
+      <h2 class="section-title reveal">Professional Summary</h2>
+      <div class="about-grid reveal">
+        <p class="about-text">
+          Machine Learning Engineer / Data Scientist with production ML experience at Bosch Rexroth and prior
+          data analytics experience at Amazon. M.Sc. Mechatronics, Universität Siegen, with coursework and
+          thesis focused on machine learning and sensor analytics. I build end-to-end systems rather than
+          notebooks: ETL and feature pipelines, distributed training on AWS SageMaker, containerised deployment
+          with Docker and Airflow, and MLflow experiment tracking. Comfortable across the stack — from embedded
+          signal compression to Retrieval-Augmented Generation.
+        </p>
+        <div class="about-facts">
+          <div class="fact"><i class="fa-solid fa-location-dot"></i><span>Siegen, Germany</span></div>
+          <div class="fact"><i class="fa-solid fa-graduation-cap"></i><span>M.Sc. Mechatronics</span></div>
+          <div class="fact"><i class="fa-solid fa-language"></i><span>English (C2) · German (B1)</span></div>
+          <div class="fact"><i class="fa-solid fa-phone"></i><span>+49 1575 3654793</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section alt">
+    <div class="container">
+      <p class="section-tag reveal">02 · Experience</p>
+      <h2 class="section-title reveal">Where I've Worked</h2>
+
+      <div class="timeline">
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Master Thesis Researcher</h3>
+              <span class="timeline-date">Dec 2024 – Sep 2025</span>
+            </div>
+            <p class="timeline-org">Universität Siegen · Siegen, Germany</p>
+            <ul>
+              <li>Designed a Python/JavaScript quantisation pipeline benchmarking four compression methods for 12-channel wearable sensor data, cutting payload size by 97% (20 MB to under 1 MB).</li>
+              <li>Established the practical accuracy–compression boundary for on-device edge deployment via downstream Human Activity Recognition (Tiny-HAR) performance across compression levels.</li>
+              <li>Implemented 1-byte-per-sample encoding on the WEAR benchmark dataset with temporal activity patterns preserved.</li>
+              <li>Delivered a browser-based visualisation tool rendering at 100 FPS with sub-50 ms decode latency.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Machine Learning Intern</h3>
+              <span class="timeline-date">Jun 2024 – Nov 2024</span>
+            </div>
+            <p class="timeline-org">Bosch Rexroth · Ulm, Germany</p>
+            <ul>
+              <li>Built an end-to-end fault-detection system for production hydraulic sensors — ETL, signal feature extraction, and deployment — replacing manual inspection with real-time anomaly detection.</li>
+              <li>Benchmarked Linear Autoencoder, CNN, and LSTM-Autoencoder architectures using distributed AWS SageMaker training jobs with Optuna hyperparameter search.</li>
+              <li>Industrialised the team's MLOps workflow: Docker containerisation, Apache Airflow orchestration, MLflow experiment logging, and Grafana health telemetry.</li>
+              <li>Shipped interactive Explainable AI dashboards (SHAP, LIME) in Streamlit for domain engineers.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Student Researcher — Recommender Systems</h3>
+              <span class="timeline-date">Aug 2023 – Apr 2024</span>
+            </div>
+            <p class="timeline-org">Universität Siegen · Siegen, Germany</p>
+            <ul>
+              <li>Ran 96+ controlled hypothesis experiments on MovieLens quantifying how top-percentile user pruning affects Implicit ALS versus KNN recommenders.</li>
+              <li>Identified a structural asymmetry between model families at equivalent sparsity thresholds: a 10.67% NDCG penalty for ALS against a 9.6% NDCG gain for KNN.</li>
+              <li>Automated the evaluation pipeline (LensKit, Implicit, scikit-learn, Seaborn) for reproducible comparative statistics.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>Business Operations Analyst (Data Analyst)</h3>
+              <span class="timeline-date">Mar 2020 – Jul 2021</span>
+            </div>
+            <p class="timeline-org">Amazon · Hyderabad, India</p>
+            <ul>
+              <li>Raised catalogue defect-identification precision by 11% by redesigning SQL preprocessing pipelines and aligning ETL validation rules with SOP protocols.</li>
+              <li>Traced root-cause drivers of customer complaints and counterfeit listings through cross-tabulated anomaly analysis in SQL, Power BI, and Excel.</li>
+              <li>Architected automated Power BI KPI dashboards used as the cross-functional reference for weekly quality reporting.</li>
+              <li>Led SQL tuning and data-tagging workshops for 10+ junior analysts, shortening onboarding cycles.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <p class="section-tag reveal">03 · Projects</p>
+      <h2 class="section-title reveal">Selected Work</h2>
+
+      <div class="projects-grid">
+
+        <article class="project-card reveal">
+          <div class="project-icon"><i class="fa-solid fa-comments"></i></div>
+          <h3>Enterprise Document Intelligence Assistant</h3>
+          <p class="project-tags">Python · FAISS · Sentence Transformers · Gradio · Streamlit</p>
+          <p>
+            A retrieval-augmented generation pipeline over a 15K-article BBC News corpus. FAISS vector
+            indexing and Sentence Transformer embeddings ground every answer in retrieved sources to
+            eliminate hallucinated responses, served through interactive Gradio and Streamlit interfaces.
+          </p>
+          <div class="project-links">
+            <a href="https://enterprise-document-intelligence-assistant-chatbot.streamlit.app/" target="_blank" rel="noopener">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+            </a>
+            <a href="https://github.com/jahnavid10/Enterprise-Document-Intelligence-Assistant" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> Code
+            </a>
+          </div>
+        </article>
+
+        <article class="project-card reveal">
+          <div class="project-icon"><i class="fa-solid fa-image"></i></div>
+          <h3>Image Denoising & Restoration Dashboard</h3>
+          <p class="project-tags">PyTorch · U-Net · Gradio · Hugging Face</p>
+          <p>
+            A Hugging Face Spaces application comparing five deep learning restoration models — CBDNet,
+            IRCNN, U-Net, RCAN, and Autoencoders — across six no-reference perceptual quality benchmarks.
+          </p>
+          <div class="project-links">
+            <a href="https://huggingface.co/spaces/dulalajahnavi10/Image-Denoising-Dashboard" target="_blank" rel="noopener">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+            </a>
+            <a href="https://github.com/jahnavid10/Image-denoising-restoration-dashboard" target="_blank" rel="noopener">
+              <i class="fa-brands fa-github"></i> Code
+            </a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section alt">
+    <div class="container">
+      <p class="section-tag reveal">04 · Skills</p>
+      <h2 class="section-title reveal">Technical Skills</h2>
+
+      <div class="skills-grid">
+        <div class="skill-group reveal">
+          <h4><i class="fa-solid fa-code"></i> Programming &amp; Core</h4>
+          <div class="tags">
+            <span>Python (NumPy, Pandas, SciPy)</span><span>SQL (PostgreSQL, BigQuery)</span><span>C++</span><span>MATLAB</span><span>Bash</span><span>Git</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4><i class="fa-solid fa-brain"></i> Machine Learning</h4>
+          <div class="tags">
+            <span>scikit-learn</span><span>XGBoost</span><span>Random Forest</span><span>Feature Engineering</span><span>Anomaly Detection</span><span>Recommender Systems</span><span>SHAP / LIME</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4><i class="fa-solid fa-robot"></i> Deep Learning &amp; GenAI</h4>
+          <div class="tags">
+            <span>PyTorch</span><span>TensorFlow</span><span>Keras</span><span>CNN</span><span>LSTM</span><span>Autoencoders</span><span>Hugging Face</span><span>Transformers</span><span>RAG</span><span>FAISS</span><span>OpenCV</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4><i class="fa-solid fa-cloud"></i> MLOps &amp; Cloud</h4>
+          <div class="tags">
+            <span>Docker</span><span>Apache Airflow</span><span>MLflow</span><span>AWS (SageMaker, S3)</span><span>GCP (BigQuery, Vertex AI)</span><span>FastAPI</span><span>REST APIs</span><span>CI/CD</span><span>Optuna</span><span>Grafana</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4><i class="fa-solid fa-chart-line"></i> Analytics &amp; Visualisation</h4>
+          <div class="tags">
+            <span>Streamlit</span><span>Power BI</span><span>Tableau</span><span>Plotly</span><span>Matplotlib</span><span>Seaborn</span><span>Excel</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h4><i class="fa-solid fa-globe"></i> Languages</h4>
+          <div class="tags">
+            <span>English — C2 (fluent)</span><span>German — B1 (intermediate)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section">
+    <div class="container">
+      <p class="section-tag reveal">05 · Education</p>
+      <h2 class="section-title reveal">Academic Background</h2>
+
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>M.Sc. Mechatronics</h3>
+              <span class="timeline-date">Oct 2021 – Sep 2025</span>
+            </div>
+            <p class="timeline-org">Universität Siegen · Siegen, Germany</p>
+            <p class="timeline-note">Focus: Machine Learning, Deep Learning, Signal Processing, Embedded Control, Project Management.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h3>B.E. Mechanical Engineering</h3>
+              <span class="timeline-date">Oct 2015 – Jun 2019</span>
+            </div>
+            <p class="timeline-org">Vardhaman College of Engineering · Hyderabad, India</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certifications" class="section alt">
+    <div class="container">
+      <p class="section-tag reveal">06 · Certifications</p>
+      <h2 class="section-title reveal">Certifications</h2>
+
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <i class="fa-solid fa-certificate"></i>
+          <div>
+            <h4>Agentic AI on Google Cloud</h4>
+            <span>Google · Jul 2026</span>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <i class="fa-solid fa-certificate"></i>
+          <div>
+            <h4>Introduction to AI and Machine Learning on Google Cloud</h4>
+            <span>Google · Feb 2026</span>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <i class="fa-solid fa-certificate"></i>
+          <div>
+            <h4>BigQuery for Data Analysts</h4>
+            <span>Google · Nov 2025</span>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <i class="fa-solid fa-certificate"></i>
+          <div>
+            <h4>Machine Learning Specialization</h4>
+            <span>DeepLearning.AI / Coursera · Jun 2025</span>
+          </div>
+        </div>
+        <div class="cert-card reveal">
+          <i class="fa-solid fa-certificate"></i>
+          <div>
+            <h4>Generative AI Fundamentals</h4>
+            <span>Databricks · Oct 2025</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <p class="section-tag reveal">07 · Contact</p>
+      <h2 class="section-title reveal">Let's Talk</h2>
+      <p class="contact-sub reveal">
+        Open to Machine Learning Engineer and Data Scientist roles. Reach out — I usually reply within a day.
+      </p>
+      <div class="contact-grid reveal">
+        <a href="mailto:dulalajahnavi2010@gmail.com" class="contact-card">
+          <i class="fa-solid fa-envelope"></i>
+          <span>dulalajahnavi2010@gmail.com</span>
+        </a>
+        <a href="tel:+4915753654793" class="contact-card">
+          <i class="fa-solid fa-phone"></i>
+          <span>+49 1575 3654793</span>
+        </a>
+        <a href="https://www.linkedin.com/in/dulala-j/" target="_blank" rel="noopener" class="contact-card">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>linkedin.com/in/dulala-j</span>
+        </a>
+        <a href="https://github.com/jahnavid10" target="_blank" rel="noopener" class="contact-card">
+          <i class="fa-brands fa-github"></i>
+          <span>github.com/jahnavid10</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Jahnavi Dulala. Built with HTML, CSS &amp; JS — hosted on GitHub Pages.</p>
+    <button id="backToTop" class="icon-btn" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
