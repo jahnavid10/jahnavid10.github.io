@@ -9,20 +9,20 @@ const translations = {
     "nav.certifications": "Certifications",
     "nav.contact": "Contact",
 
-    "intro.kicker": "Machine Learning Engineer · Data Scientist",
-    "intro.line": "Turning raw sensor data, documents and images into systems that ship — not just notebooks.",
+    "intro.kicker": "Data Scientist · AI/ML Engineer",
+    "intro.line": "Building production systems from raw sensor data, text, and images - no notebook graveyards.",
     "intro.scroll": "Scroll",
 
     "about.eyebrow": "01 · About",
     "about.lede": "I'm a Machine Learning Engineer with production experience at <strong>Bosch&nbsp;Rexroth</strong> and prior analytics experience at <strong>Amazon</strong>, holding an M.Sc. in Mechatronics from Universität&nbsp;Siegen.",
-    "about.text": "I build end-to-end systems rather than notebooks — ETL and feature pipelines, distributed training on AWS SageMaker, containerised deployment with Docker and Airflow, and MLflow experiment tracking. Comfortable across the stack, from embedded signal compression to Retrieval-Augmented Generation.",
+    "about.text": "I build end-to-end systems rather than notebooks - ETL and feature pipelines, distributed training on AWS SageMaker, containerised deployment with Docker and Airflow, and MLflow experiment tracking. Comfortable across the stack, from embedded signal compression to Retrieval-Augmented Generation.",
     "about.btnProjects": "View Projects",
     "about.btnContact": "Get in Touch",
     "about.cvEn": "Download CV (English)",
     "about.cvDe": "Lebenslauf (Deutsch)",
     "about.fact.location": "Siegen, Germany",
     "about.fact.degree": "M.Sc. Mechatronics",
-    "about.fact.languages": "English (C2) · German (B1)",
+    "about.fact.languages": "English (C2) · German (A2)",
 
     "exp.eyebrow": "02 · Experience",
     "exp.title": "Where I've Worked",
@@ -34,11 +34,11 @@ const translations = {
     "exp.r1.li4": "Delivered a browser-based visualisation tool rendering at 100 FPS with sub-50 ms decode latency.",
     "exp.r2.title": "Machine Learning Intern",
     "exp.r2.org": "Bosch Rexroth · Ulm, Germany",
-    "exp.r2.li1": "Built an end-to-end fault-detection system for production hydraulic sensors — ETL, signal feature extraction, and deployment — replacing manual inspection with real-time anomaly detection.",
+    "exp.r2.li1": "Built an end-to-end fault-detection system for production hydraulic sensors - ETL, signal feature extraction, and deployment - replacing manual inspection with real-time anomaly detection.",
     "exp.r2.li2": "Benchmarked Linear Autoencoder, CNN, and LSTM-Autoencoder architectures using distributed AWS SageMaker training jobs with Optuna hyperparameter search.",
     "exp.r2.li3": "Industrialised the team's MLOps workflow: Docker containerisation, Apache Airflow orchestration, MLflow experiment logging, and Grafana health telemetry.",
     "exp.r2.li4": "Shipped interactive Explainable AI dashboards (SHAP, LIME) in Streamlit for domain engineers.",
-    "exp.r3.title": "Student Researcher — Recommender Systems",
+    "exp.r3.title": "Student Researcher - Recommender Systems",
     "exp.r3.org": "Universität Siegen · Siegen, Germany",
     "exp.r3.li1": "Ran 96+ controlled hypothesis experiments on MovieLens quantifying how top-percentile user pruning affects Implicit ALS versus KNN recommenders.",
     "exp.r3.li2": "Identified a structural asymmetry between model families at equivalent sparsity thresholds: a 10.67% NDCG penalty for ALS against a 9.6% NDCG gain for KNN.",
@@ -61,7 +61,7 @@ const translations = {
     "proj.eyebrow": "04 · Projects",
     "proj.title": "Selected Work",
     "proj.p1.desc": "A retrieval-augmented generation pipeline over a 15K-article BBC News corpus. FAISS vector indexing and Sentence Transformer embeddings ground every answer in retrieved sources to eliminate hallucinated responses, served through interactive Gradio and Streamlit interfaces.",
-    "proj.p2.desc": "A Hugging Face Spaces application comparing five deep learning restoration models — CBDNet, IRCNN, U-Net, RCAN, and Autoencoders — across six no-reference perceptual quality benchmarks.",
+    "proj.p2.desc": "A Hugging Face Spaces application comparing five deep learning restoration models - CBDNet, IRCNN, U-Net, RCAN, and Autoencoders - across six no-reference perceptual quality benchmarks.",
     "proj.cta": "View live demo",
 
     "skills.eyebrow": "05 · Skills",
@@ -72,8 +72,8 @@ const translations = {
     "skills.g4": "MLOps &amp; Cloud",
     "skills.g5": "Analytics &amp; Visualisation",
     "skills.g6": "Languages",
-    "skills.langEn": "English — C2 (fluent)",
-    "skills.langDe": "German — B1 (intermediate)",
+    "skills.langEn": "English - C2 (fluent)",
+    "skills.langDe": "German - A2 (Beginner)",
 
     "edu.eyebrow": "06 · Education",
     "edu.title": "Academic Background",
@@ -89,9 +89,9 @@ const translations = {
 
     "contact.eyebrow": "08 · Contact",
     "contact.title": "Let's build<br>something great.",
-    "contact.sub": "Open to Machine Learning Engineer and Data Scientist roles. Reach out — I usually reply within a day.",
+    "contact.sub": "Open to Machine Learning Engineer, Data Scientist, AI Engineer, and Research/PhD roles.",
 
-    "footer.text": "Built with HTML, CSS &amp; JS — hosted on GitHub Pages."
+    "footer.text": "Built with HTML, CSS &amp; JS - hosted on GitHub Pages."
   },
 
   de: {
@@ -104,20 +104,20 @@ const translations = {
     "nav.certifications": "Zertifikate",
     "nav.contact": "Kontakt",
 
-    "intro.kicker": "Machine Learning Engineer · Data Scientist",
-    "intro.line": "Ich verwandle rohe Sensordaten, Dokumente und Bilder in Systeme, die wirklich produktiv laufen — nicht nur in Notebooks.",
+    "intro.kicker": "Data Scientist · AI/ML Engineer",
+    "intro.line": "Ich baue produktionsreife Systeme aus rohen Sensordaten, Texten und Bildern - keine vergessenen Notebooks.",
     "intro.scroll": "Scrollen",
 
     "about.eyebrow": "01 · Über mich",
     "about.lede": "Ich bin Machine Learning Engineer mit Praxiserfahrung bei <strong>Bosch&nbsp;Rexroth</strong> und vorheriger Analytics-Erfahrung bei <strong>Amazon</strong>, mit einem M.Sc. in Mechatronik von der Universität&nbsp;Siegen.",
-    "about.text": "Ich baue durchgängige Systeme statt einzelner Notebooks — ETL- und Feature-Pipelines, verteiltes Training auf AWS SageMaker, containerisiertes Deployment mit Docker und Airflow sowie Experiment-Tracking mit MLflow. Zu Hause im gesamten Stack, von eingebetteter Signalkompression bis Retrieval-Augmented Generation.",
+    "about.text": "Ich baue durchgängige Systeme statt einzelner Notebooks - ETL- und Feature-Pipelines, verteiltes Training auf AWS SageMaker, containerisiertes Deployment mit Docker und Airflow sowie Experiment-Tracking mit MLflow. Zu Hause im gesamten Stack, von eingebetteter Signalkompression bis Retrieval-Augmented Generation.",
     "about.btnProjects": "Projekte ansehen",
     "about.btnContact": "Kontakt aufnehmen",
     "about.cvEn": "CV herunterladen (Englisch)",
     "about.cvDe": "Lebenslauf herunterladen (Deutsch)",
     "about.fact.location": "Siegen, Deutschland",
     "about.fact.degree": "M.Sc. Mechatronik",
-    "about.fact.languages": "Englisch (C2) · Deutsch (B1)",
+    "about.fact.languages": "Englisch (C2) · Deutsch (A2)",
 
     "exp.eyebrow": "02 · Werdegang",
     "exp.title": "Beruflicher Werdegang",
@@ -129,11 +129,11 @@ const translations = {
     "exp.r1.li4": "Browserbasiertes Visualisierungstool mit 100 FPS und einer Decodier-Latenz unter 50 ms entwickelt.",
     "exp.r2.title": "Praktikantin Machine Learning",
     "exp.r2.org": "Bosch Rexroth · Ulm, Deutschland",
-    "exp.r2.li1": "Durchgängiges Fehlererkennungssystem für hydraulische Produktionssensoren aufgebaut — ETL, Signal-Feature-Extraction und Deployment — und manuelle Inspektion durch Echtzeit-Anomalieerkennung ersetzt.",
+    "exp.r2.li1": "Durchgängiges Fehlererkennungssystem für hydraulische Produktionssensoren aufgebaut - ETL, Signal-Feature-Extraction und Deployment - und manuelle Inspektion durch Echtzeit-Anomalieerkennung ersetzt.",
     "exp.r2.li2": "Linear-Autoencoder-, CNN- und LSTM-Autoencoder-Architekturen mittels verteilter AWS-SageMaker-Trainingsjobs und Optuna-Hyperparameter-Suche verglichen.",
     "exp.r2.li3": "MLOps-Workflow des Teams industrialisiert: Docker-Containerisierung, Orchestrierung mit Apache Airflow, Experiment-Logging mit MLflow und Grafana-Health-Telemetrie.",
     "exp.r2.li4": "Interaktive Explainable-AI-Dashboards (SHAP, LIME) in Streamlit für Fachingenieure bereitgestellt.",
-    "exp.r3.title": "Studentische Forscherin — Recommender Systems",
+    "exp.r3.title": "Studentische Forscherin - Recommender Systems",
     "exp.r3.org": "Universität Siegen · Siegen, Deutschland",
     "exp.r3.li1": "96+ kontrollierte Hypothesenexperimente auf MovieLens durchgeführt, um den Einfluss von Top-Percentile User Pruning auf Implicit-ALS- versus KNN-Recommender zu quantifizieren.",
     "exp.r3.li2": "Strukturelle Asymmetrie zwischen den Modellfamilien bei gleichen Sparsity-Schwellenwerten identifiziert: 10,67 % NDCG-Verlust bei ALS gegenüber 9,6 % NDCG-Gewinn bei KNN.",
@@ -156,7 +156,7 @@ const translations = {
     "proj.eyebrow": "04 · Projekte",
     "proj.title": "Ausgewählte Projekte",
     "proj.p1.desc": "Eine Retrieval-Augmented-Generation-Pipeline über einen BBC-News-Korpus mit 15.000 Artikeln. FAISS-Vektorindexierung und Sentence-Transformer-Embeddings verankern jede Antwort in den abgerufenen Quellen und eliminieren so Halluzinationen — bereitgestellt über interaktive Gradio- und Streamlit-Oberflächen.",
-    "proj.p2.desc": "Eine Hugging-Face-Spaces-Anwendung, die fünf Deep-Learning-Restaurierungsmodelle — CBDNet, IRCNN, U-Net, RCAN und Autoencoder — anhand von sechs No-Reference-Bildqualitätsmetriken vergleicht.",
+    "proj.p2.desc": "Eine Hugging-Face-Spaces-Anwendung, die fünf Deep-Learning-Restaurierungsmodelle - CBDNet, IRCNN, U-Net, RCAN und Autoencoder - anhand von sechs No-Reference-Bildqualitätsmetriken vergleicht.",
     "proj.cta": "Live-Demo ansehen",
 
     "skills.eyebrow": "05 · Kenntnisse",
@@ -167,8 +167,8 @@ const translations = {
     "skills.g4": "MLOps &amp; Cloud",
     "skills.g5": "Analytics &amp; Visualisierung",
     "skills.g6": "Sprachen",
-    "skills.langEn": "Englisch — C2 (fließend)",
-    "skills.langDe": "Deutsch — B1 (Mittelstufe)",
+    "skills.langEn": "Englisch - C2 (fließend)",
+    "skills.langDe": "Deutsch - A2 (Anfänger)",
 
     "edu.eyebrow": "06 · Ausbildung",
     "edu.title": "Akademischer Werdegang",
@@ -184,9 +184,9 @@ const translations = {
 
     "contact.eyebrow": "08 · Kontakt",
     "contact.title": "Lass uns etwas<br>Großartiges bauen.",
-    "contact.sub": "Offen für Positionen als Machine Learning Engineer und Data Scientist. Melde dich gerne — ich antworte meist innerhalb eines Tages.",
+    "contact.sub": "Offen für Positionen als Machine Learning Engineer, Data Scientist, AI Engineer sowie im Bereich Forschung/Promotion.",
 
-    "footer.text": "Erstellt mit HTML, CSS &amp; JS — gehostet auf GitHub Pages."
+    "footer.text": "Erstellt mit HTML, CSS &amp; JS - gehostet auf GitHub Pages."
   }
 };
 
