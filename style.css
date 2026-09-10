@@ -338,18 +338,14 @@ ul { list-style: none; margin: 0; padding: 0; }
   gap: 16px;
 }
 
-.monogram {
-  width: 64px;
-  height: 64px;
+.profile-photo {
+  width: 88px;
+  height: 88px;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  color: #fff;
-  font-family: var(--font-serif);
-  font-weight: 700;
-  font-size: 1.4rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  object-fit: cover;
+  border: 3px solid var(--surface);
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
   margin-bottom: 6px;
 }
 
