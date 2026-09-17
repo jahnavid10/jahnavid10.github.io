@@ -60,11 +60,11 @@ const translations = {
 
     "skills.eyebrow": "04 · Skills",
     "skills.title": "Technical Skills",
-    "skills.g1": "Programming &amp; Core",
+    "skills.g1": "Programming & Core",
     "skills.g2": "Machine Learning",
-    "skills.g3": "Deep Learning &amp; GenAI",
-    "skills.g4": "MLOps &amp; Cloud",
-    "skills.g5": "Analytics &amp; Visualisation",
+    "skills.g3": "Deep Learning & GenAI",
+    "skills.g4": "MLOps & Cloud",
+    "skills.g5": "Analytics & Visualisation",
     "skills.g6": "Languages",
     "skills.langEn": "English - C2 (fluent)",
     "skills.langDe": "German - A2/B1 (intermediate, actively improving)",
@@ -86,7 +86,7 @@ const translations = {
     "contact.title": "Let's build<br>something great.",
     "contact.sub": "Open to Machine Learning Engineer, Data Scientist, AI Engineer, and Research/PhD roles.",
 
-    "footer.text": "Built with HTML, CSS &amp; JS - hosted on GitHub Pages."
+    "footer.text": "Built with HTML, CSS & JS - hosted on GitHub Pages."
   },
 
   de: {
