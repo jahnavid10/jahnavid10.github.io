@@ -56,6 +56,7 @@ const translations = {
     "proj.title": "Selected Work",
     "proj.p1.desc": "A retrieval-augmented generation pipeline over a 15K-article BBC News corpus. FAISS vector indexing and Sentence Transformer embeddings ground every answer in retrieved sources to eliminate hallucinated responses, served through interactive Gradio and Streamlit interfaces.",
     "proj.p2.desc": "A Hugging Face Spaces application comparing five deep learning restoration models - CBDNet, IRCNN, U-Net, RCAN, and Autoencoders - across six no-reference perceptual quality benchmarks.",
+    "proj.p3.desc": "An end-to-end condition-monitoring system on the public UCI hydraulic dataset. A PyTorch autoencoder detects anomalies (AUC 0.98) and a Random Forest diagnoses the failing component. A Google ADK agent explains faults and drafts work orders, while a human approves every order. Served through FastAPI, with Streamlit dashboards, Docker and CI.",
     "proj.cta": "View live demo",
 
     "skills.eyebrow": "04 · Skills",
@@ -146,6 +147,7 @@ const translations = {
     "proj.title": "Ausgewählte Projekte",
     "proj.p1.desc": "Eine Retrieval-Augmented-Generation-Pipeline über einen BBC-News-Korpus mit 15.000 Artikeln. FAISS-Vektorindexierung und Sentence-Transformer-Embeddings verankern jede Antwort in den abgerufenen Quellen und eliminieren so Halluzinationen — bereitgestellt über interaktive Gradio- und Streamlit-Oberflächen.",
     "proj.p2.desc": "Eine Hugging-Face-Spaces-Anwendung, die fünf Deep-Learning-Restaurierungsmodelle - CBDNet, IRCNN, U-Net, RCAN und Autoencoder - anhand von sechs No-Reference-Bildqualitätsmetriken vergleicht.",
+    "proj.p3.desc": "Ein durchgängiges Zustandsüberwachungs-System auf dem öffentlichen UCI-Hydraulik-Datensatz. Ein PyTorch-Autoencoder erkennt Anomalien (AUC 0,98), ein Random Forest diagnostiziert die defekte Komponente. Ein Google-ADK-Agent erklärt Fehler und erstellt Wartungsaufträge als Entwurf, jeden Auftrag gibt ein Mensch frei. Bereitstellung mit FastAPI, Streamlit-Dashboards, Docker und CI.",
     "proj.cta": "Live-Demo ansehen",
 
     "skills.eyebrow": "04 · Kenntnisse",
